@@ -1,0 +1,154 @@
+Test Case #1:
+First element as pivot : 8 comparisons.
+Last element as pivot  : 7 comparisons.
+Median of 3 as pivot   : 6 comparisons.
+
+Test Case #2:
+First element as pivot : 68 comparisons.
+Last element as pivot  : 70 comparisons.
+Median of 3 as pivot   : 60 comparisons.
+
+Test Case #3:
+First element as pivot : 38 comparisons.
+Last element as pivot  : 54 comparisons.
+Median of 3 as pivot   : 35 comparisons.
+
+Test Case #4:
+First element as pivot : 66 comparisons.
+Last element as pivot  : 75 comparisons.
+Median of 3 as pivot   : 55 comparisons.
+
+Test Case #5:
+First element as pivot : 50 comparisons.
+Last element as pivot  : 51 comparisons.
+Median of 3 as pivot   : 44 comparisons.
+
+Test Case #6:
+First element as pivot : 3 comparisons.
+Last element as pivot  : 3 comparisons.
+Median of 3 as pivot   : 2 comparisons.
+
+Test Case #7:
+First element as pivot : 4 comparisons.
+Last element as pivot  : 4 comparisons.
+Median of 3 as pivot   : 4 comparisons.
+
+Test Case #8:
+First element as pivot : 92 comparisons.
+Last element as pivot  : 105 comparisons.
+Median of 3 as pivot   : 67 comparisons.
+
+Test Case #9:
+First element as pivot : 104 comparisons.
+Last element as pivot  : 108 comparisons.
+Median of 3 as pivot   : 102 comparisons.
+
+Test Case #10:
+First element as pivot : 50 comparisons.
+Last element as pivot  : 49 comparisons.
+Median of 3 as pivot   : 51 comparisons.
+
+Test Case #11:
+First element as pivot : 48 comparisons.
+Last element as pivot  : 48 comparisons.
+Median of 3 as pivot   : 49 comparisons.
+
+Test Case #12:
+First element as pivot : 92 comparisons.
+Last element as pivot  : 89 comparisons.
+Median of 3 as pivot   : 77 comparisons.
+
+Test Case #13:
+First element as pivot : 39 comparisons.
+Last element as pivot  : 43 comparisons.
+Median of 3 as pivot   : 35 comparisons.
+
+Test Case #14:
+First element as pivot : 70 comparisons.
+Last element as pivot  : 79 comparisons.
+Median of 3 as pivot   : 52 comparisons.
+
+Test Case #15:
+First element as pivot : 79 comparisons.
+Last element as pivot  : 82 comparisons.
+Median of 3 as pivot   : 68 comparisons.
+
+Test Case #16:
+First element as pivot : 79 comparisons.
+Last element as pivot  : 77 comparisons.
+Median of 3 as pivot   : 67 comparisons.
+
+Test Case #17:
+First element as pivot : 56 comparisons.
+Last element as pivot  : 54 comparisons.
+Median of 3 as pivot   : 52 comparisons.
+
+Test Case #18:
+First element as pivot : 108 comparisons.
+Last element as pivot  : 92 comparisons.
+Median of 3 as pivot   : 85 comparisons.
+
+Test Case #19:
+First element as pivot : 12 comparisons.
+Last element as pivot  : 14 comparisons.
+Median of 3 as pivot   : 10 comparisons.
+
+Test Case #20:
+First element as pivot : 11 comparisons.
+Last element as pivot  : 9 comparisons.
+Median of 3 as pivot   : 9 comparisons.
+
+Test Case #21:
+First element as pivot : 9 comparisons.
+Last element as pivot  : 9 comparisons.
+Median of 3 as pivot   : 8 comparisons.
+
+Test Case #22:
+First element as pivot : 11 comparisons.
+Last element as pivot  : 9 comparisons.
+Median of 3 as pivot   : 9 comparisons.
+
+Test Case #23:
+First element as pivot : 40 comparisons.
+Last element as pivot  : 37 comparisons.
+Median of 3 as pivot   : 33 comparisons.
+
+Test Case #24:
+First element as pivot : 6 comparisons.
+Last element as pivot  : 6 comparisons.
+Median of 3 as pivot   : 6 comparisons.
+
+Test Case #25:
+First element as pivot : 33 comparisons.
+Last element as pivot  : 37 comparisons.
+Median of 3 as pivot   : 28 comparisons.
+
+Test Case #26:
+First element as pivot : 48 comparisons.
+Last element as pivot  : 51 comparisons.
+Median of 3 as pivot   : 47 comparisons.
+
+Test Case #27:
+First element as pivot : 99 comparisons.
+Last element as pivot  : 92 comparisons.
+Median of 3 as pivot   : 81 comparisons.
+
+Test Case #28:
+First element as pivot : 69 comparisons.
+Last element as pivot  : 85 comparisons.
+Median of 3 as pivot   : 49 comparisons.
+
+Test Case #29:
+First element as pivot : 17 comparisons.
+Last element as pivot  : 20 comparisons.
+Median of 3 as pivot   : 18 comparisons.
+
+Test Case #30:
+First element as pivot : 13 comparisons.
+Last element as pivot  : 14 comparisons.
+Median of 3 as pivot   : 11 comparisons.
+
+IntegerArray.txt:
+First element as pivot : 1954287 comparisons.
+Last element as pivot  : 2047196 comparisons.
+Median of 3 as pivot   : 1697653 comparisons.

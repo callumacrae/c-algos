@@ -12,37 +12,48 @@ void swap(int *x, int *y) {
 
 int test = 0;
 
-void quicksort(int list[], int l, int r) {
-	if (r > l + 1) {
-		test += (r - l - 1);
+void quicksort(int arr[], int left, int right) {
+	test += (right - left - 1);
 
-		int k = choosePivot(l, r);
-		int pivot = list[k];
+	int tmp;
+	int l = left;
+	int r = right;
 
-		int i = l + 1;
-		int j = r;
-
-		while (i <= j) {
-			while ((i <= r) && (list[i] <= pivot))
-				i++;
-			while ((j >= l) && (list[j] > pivot))
-				j--;
-			if (i < j)
-				swap(&list[i], &list[j]);
+	int pivot = choosePivot(l, r);
+	
+	do {
+		while (arr[l] < arr[pivot]) {
+			l++;
 		}
-
-		swap(&list[l], &list[i - 1]);
-
-		quicksort(list, l, j - 1);
-		quicksort(list, j + 1, r);
+		
+		while (arr[r] > arr[pivot]) {
+			r--;
+		}
+		
+		if (l <= r) {
+			tmp = arr[l];
+			arr[l] = arr[r];
+			arr[r] = tmp;
+			
+			l++;
+			r--;
+		}
+	} while (l <= r);
+	
+	if (left < r) {
+		quicksort(arr, left, r);
+	}
+	
+	if (l < right) {
+		quicksort(arr, l, right);
 	}
 }
 
 int main(int argv, char** args) {
-	int arr[] = {5,4,3,1,2};
-	int n = 5;
+	int arr[] = {18,14,7,10,9,11,3,6,17,8,16,2,5,1,13,12,15,4};
+	int n = 18;
 
-	quicksort(arr, 0, n);
+	quicksort(arr, 0, n - 1);
 	
 	printf("%d\n", test);
 	
